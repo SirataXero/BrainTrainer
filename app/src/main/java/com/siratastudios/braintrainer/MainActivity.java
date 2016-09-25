@@ -128,7 +128,6 @@ public class MainActivity extends AppCompatActivity {
 
         Button buttonPressed = (Button)view;
         int numPicked = Integer.parseInt(buttonPressed.getText().toString());
-
         if(numPicked == realAnswer) {
             currentStatus.setText("Correct!");
             isCorrect = isCorrect + 1;
